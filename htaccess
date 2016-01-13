@@ -1,4 +1,4 @@
-# Block Russian Referrer Spam
+## Block Referrer Spam
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly\.com/ [NC,OR]
 RewriteCond %{HTTP_REFERER} ^http://.*ilovevitaly.\.ru/ [NC,OR]
@@ -25,4 +25,16 @@ RewriteCond %{HTTP_REFERER} rusexy.xyz [NC,OR]
 RewriteCond %{HTTP_REFERER} smarter-content.for-your.website [NC,OR]
 RewriteCond %{HTTP_REFERER} topseoservices.co [NC,OR]
 RewriteCond %{HTTP_REFERER} trafficgenius.xyz [NC,OR]
+RewriteCond %{HTTP_REFERER} quit-smoking.ga [NC,OR]
+RewriteCond %{HTTP_REFERER} website-stealer.nufaq.com [NC,OR]
+RewriteCond %{HTTP_REFERER} 172.16.0.20:9191 [NC,OR]
+RewriteCond %{HTTP_REFERER} site46301642.snip.tw [NC,OR]
+RewriteCond %{HTTP_REFERER} scripted.com [NC,OR]
+RewriteCond %{HTTP_REFERER} uptimechecker.com [NC,OR]
+RewriteCond %{HTTP_REFERER} mail.126.com [NC,OR]
+RewriteCond %{HTTP_REFERER} smarter-content.for-your.website [NC,OR]
+RewriteCond %{HTTP_REFERER} uptimebot.net [NC,OR]
+RewriteCond %{HTTP_REFERER} w3javascript.com [NC,OR]
+RewriteCond %{HTTP_REFERER} webextract.profound.net [NC,OR]
 RewriteRule ^(.*)$ – [F,L]
+## END REFERRER SPAM
